@@ -1,3 +1,14 @@
+## Running this webApp
+
+To run the demo follow these steps:
+
+1.Make sure node is installed in your system
+
+```sh
+    npm install
+    npm run start
+```
+
 ## Technology
 
 This Project uses:
@@ -14,13 +25,3 @@ This Project uses:
 - react-html-parser
 - twemoji
 
-## Running this webApp
-
-To run the demo follow these steps:
-
-1.Make sure node is installed in your system
-
-```sh
-    npm install
-    npm run start
-```
