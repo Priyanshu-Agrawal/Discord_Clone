@@ -29,6 +29,7 @@ input {
 
 .login__container {
   background-color: #f0f2f5;
+  background: #26292c !important;
   display: grid;
   grid-template-columns: 55% 45%;
   height: 100vh;
@@ -45,7 +46,7 @@ input {
 }
 
 .login__welcome {
-  padding-left: 10.5rem;
+  padding-left: 6.5rem;
   padding-top: 13.5rem;
 }
 
@@ -59,7 +60,6 @@ input {
 
 .login__welcome p {
   font-size: 2rem;
-  padding-left: 2.125rem;
 }
 
 .login__form-container {
@@ -67,9 +67,10 @@ input {
 }
 
 .login__form {
-  background-color: #fff;
+  background: #202225;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-  padding: 1.25rem;
+  padding: 2.25rem;
+  padding-top: 4rem;
   width: 24.75rem;
 }
 
@@ -86,7 +87,7 @@ input {
   border: 0;
   color: #fff;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: bolder;
   outline: none;
   padding: 0.875rem 1rem;
   width: 100%;
@@ -98,11 +99,11 @@ input {
 }
 
 .login__forgot-password {
-  border-bottom: 1px solid #e5e7eb;
   color: #2563eb;
   display: block;
   font-size: 0.9375rem;
-  padding: 1.25rem 0;
+  padding: 0.75rem;
+  padding-top: 1.25em;
   text-align: center;
 }
 
@@ -114,7 +115,7 @@ input {
   color: #2563eb;
   display: block;
   font-size: 0.9375rem;
-  padding: 1.25rem 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -225,7 +226,7 @@ input {
 
 /* The Modal (background) */
 .signup {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(15, 15, 20, 0.8);
   display: block; /* Hidden by default */
   height: 100%; /* Full height */
   left: 0;
@@ -238,7 +239,8 @@ input {
 
 /* Modal Content/Box */
 .signup__content {
-  background-color: #fefefe;
+  color: #e5e7eb;
+  background: #202225;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   margin: 15% auto; /* 15% from the top and centered */
   margin-top: 10%;
@@ -246,6 +248,7 @@ input {
 }
 
 .signup__container {
+  background-color: #404eed;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -253,7 +256,7 @@ input {
 .signup__title {
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 1.25rem 0 0.5rem 1.25rem;
+  padding: 1.25rem 0 1.25rem 1.5rem;
 }
 
 .signup__close {
@@ -268,19 +271,18 @@ input {
 }
 
 .signup__subtitle {
-  background: #e5e7eb;
   height: 1px;
   margin-bottom: 0.5rem;
   width: 100%;
 }
 
 .signup__form {
+  background: #202225;
   width: 100%;
   padding: 1.25rem;
 }
 
 .signup__form input {
-  background-color: #f3f4f6;
   border: 1px solid #e5e7eb;
   display: block;
   font-size: 0.9375rem;

@@ -76,10 +76,7 @@ const Login = (props) => {
   return (
     <div className="login__container">
       <div className="login__welcome">
-        <div className="login__logo">
-          <img src='https://assets-global.website-files.com/5f3c19f18169b65d9d0bf384/5f3c19f18169b655820bf3d4_asset%2021.svg' alt='logo'/>
-        </div>
-        <p>Build <span style={{color: "#404EED", fontWeight: 'bold'}}>Discord Clone</span> with React</p>
+        <p style={{color: "#F1F1F1"}}><span style={{color: "#404EED", fontWeight: 'bold'}}>Discord Clone</span> with React</p>
       </div>
       <div className="login__form-container">
         <div className="login__form">
@@ -92,7 +89,7 @@ const Login = (props) => {
           <button className="login__submit-btn" onClick={login}>
             Login
           </button>
-          <span className="login__forgot-password">Forgot password?</span>
+          <span className="login__forgot-password" onClick={() => alert("Can't do it for Now :(")}>Forgot password?</span>
           <span className="login__signup" onClick={() => toggleModal(true)}>Create New Account</span>
         </div>
       </div>
